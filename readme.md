@@ -109,7 +109,7 @@ export default {
     {
       //... token details,
       priceSources: [
-        // we load and prioritze by insertion order, first entry gets loaded first and so on
+        // we load and prioritize by insertion order, first entry gets loaded first and so on
         { source: "coingecko", apiId: "olympus" },
         {
           source: "custom",
